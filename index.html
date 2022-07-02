@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .container{
+        border: 2px solid blue;
+
+      }
+      .card{
+        display: flex;
+        flex-direction: column;
+      
+        margin: 10px 10px;
+      }
+      .btn{
+        margin: 4px;
+        padding: 4px;
+      }
+    </style>
+</head>
+<body>
+  <div id="root">
+    <div class="container">
+      <div class="cards">
+        <div class="card">
+          <label for="textarea" >Note 1</label>
+          <textarea name="note" id="notes1" class="note" cols="30" rows="10" placeholder="Add your notes here"></textarea>
+          <div class="btns">
+            <button class="btnAdd btn" onclick={addNote()} >Add More</button>
+            <button class="btnDel btn" onclick={deleteNote()} >Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+  
+  <!-- <script src="practice.js"></script> -->
+  <script src="todo-cards.js"></script>
+  <script src="todo-cards-pro.js"></script>
+</body>
+</html>
