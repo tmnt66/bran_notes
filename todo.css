@@ -1,0 +1,44 @@
+body{
+	background-color: aquamarine;
+}
+
+.card{
+	width: 335px;
+    border: 1px solid black;
+    box-shadow: 3px 4px 5px 1px;
+    margin: 6px 10px;
+    background-color: aqua;
+    font-weight: bold;
+    padding: 2px 9px;
+}
+.cards{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.btnDel{
+	display: flex;
+    align-items: center;
+    border-radius: 6px;
+    border: 2px solid #00bd7d;
+    background-color: #7fffd4;
+    font-weight: bold;
+	cursor: pointer;
+}
+
+.btnDel div{
+	margin: 2px;
+    background-color: red;
+    padding: 3px;
+    border-radius: 3px;
+    color: white;
+}
+
+.btnAdd{
+	
+	align-items: center;
+    border-radius: 6px;
+    border: 2px solid #13f93a;
+    background-color: #43ff63;
+    font-weight: bold;
+    cursor: pointer;
+}
